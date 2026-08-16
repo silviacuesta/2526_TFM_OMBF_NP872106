@@ -88,8 +88,10 @@ Los datos de partida son públicos y no se incluyen como archivo en este anexo, 
 
 ## Archivos no incluidos en el repositorio (ver `.gitignore`)
 
+
 - `GDCdata/`: datos brutos descargados por el script 01 (varios GB, de acceso público, no es necesario versionarlos).
-- `resultados/rds/dds.rds`: objeto `DESeqDataSet` con la matriz de expresión completa, generado por el script 02. Se excluye por superar el límite de 100 MB por archivo de GitHub (~1 GB). Se regenera automáticamente y en pocos minutos al ejecutar `02_expresion_diferencial.R` a partir de `datos_completos.rds` y `counts_filtrado.rds`, ambos sí incluidos en el repositorio.
+- `resultados/rds/dds.rds`: objeto `DESeqDataSet` con la matriz de expresión completa, generado por el script 02. Se excluye por superar el límite de 100 MB por archivo de GitHub (~1 GB). Se regenera automáticamente y en pocos minutos al ejecutar `02_expresion_diferencial.R` a partir de `datos_completos.rds` y `counts_filtrado.rds`.
+- `resultados/rds/counts_filtrado.rds`: matriz de conteos filtrada (60.660 → 26.133 genes), generada por el script 01. Se excluye por su tamaño (~59 MB), al superar el límite de 25 MB por archivo de la interfaz web de GitHub empleada para la subida del repositorio. Se regenera automáticamente al ejecutar `01_descarga_y_preprocesado.R`.
 - `.Rproj.user/`, `.Rhistory`, `.RData`, `.RDataTmp`: archivos de sesión de RStudio, sin valor para la reproducibilidad del análisis.
 
 ## Reproducibilidad
