@@ -19,7 +19,7 @@ Codigo_TFM/
 │   ├── 05_modelo_riesgo.R
 │   ├── 06_interpretacion_biologica.R
 │   ├── 07_exportar_tablas.R
-│   └── 08_exportar_tablas_anexoA.R
+│   └── 08_exportar_tablas_anexoB.R
 └── resultados/
     ├── rds/        (objetos intermedios .rds)
     ├── figuras/    (todas las figuras .png)
@@ -50,7 +50,7 @@ Los datos de partida son públicos y no se incluyen como archivo en este anexo, 
 | `05_modelo_riesgo.R` | Modelo de Cox multivariante combinando los genes pronósticos y construcción de la puntuación de riesgo (firma génica). | `datos_supervivencia.rds`, `norm_counts_top.rds`, `resultados_supervivencia.rds`, `top_genes.rds` | `modelo_cox.rds`, `datos_modelo.rds` | Apartado 4.5 |
 | `06_interpretacion_biologica.R` | Análisis de enriquecimiento funcional (Gene Ontology y KEGG) sobre los genes candidatos. | `top_genes.rds` | `enriquecimiento_GO.rds`, `enriquecimiento_KEGG.rds`, `enriquecimiento_KEGG_exploratorio.rds` | Apartado 5.4 |
 | `07_exportar_tablas.R` | Exportación a Excel de las 4 tablas resumidas empleadas en el cuerpo del apartado 5 (genes pronósticos, modelo de Cox, top 15 genes, rutas KEGG exploratorias). | `top_genes.rds`, `resultados_supervivencia.rds`, `modelo_cox.rds`, `enriquecimiento_KEGG_exploratorio.rds` | `resultados/tablas/tablas_apartado5_TFM.xlsx` | Apartado 5 |
-| `08_exportar_tablas_anexoA.R` | Exportación a CSV de las 5 tablas completas de resultados (Anexo A). | `top_genes.rds`, `resultados_supervivencia.rds`, `enriquecimiento_GO.rds`, `enriquecimiento_KEGG_exploratorio.rds`, `modelo_cox.rds` | 5 archivos `.csv` en `resultados/tablas/` (ver más abajo) | Anexo A |
+| `08_exportar_tablas_anexoB.R` | Exportación a CSV de las 5 tablas completas de resultados (Anexo B). | `top_genes.rds`, `resultados_supervivencia.rds`, `enriquecimiento_GO.rds`, `enriquecimiento_KEGG_exploratorio.rds`, `modelo_cox.rds` | 5 archivos `.csv` en `resultados/tablas/` (ver más abajo) | Anexo B |
 
 ## Figuras generadas (en `resultados/figuras/`)
 
@@ -76,7 +76,7 @@ Los datos de partida son públicos y no se incluyen como archivo en este anexo, 
 | `Tabla2_modelo_cox` | Coeficientes del modelo de Cox multivariante (HR, IC 95%, p-valor). | Tabla 4 (Apartado 5.3) |
 | `Tabla4_KEGG_exploratorio` | Las 5 rutas KEGG mejor posicionadas en el análisis exploratorio. | Tabla 6 (Apartado 5.4) |
 
-## Tablas exportadas (Anexo A, script 08, en `resultados/tablas/`)
+## Tablas exportadas (Anexo B, script 08, en `resultados/tablas/`)
 
 | Archivo CSV | Contenido |
 |---|---|
