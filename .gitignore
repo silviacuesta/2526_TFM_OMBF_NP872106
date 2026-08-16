@@ -12,6 +12,10 @@ GDCdata/
 # Se regenera automáticamente al ejecutar el script 02_expresion_diferencial.R
 resultados/rds/dds.rds
 
+# Archivo .rds pesado (~59 MB) que se excluye para facilitar la subida al repositorio.
+# Se regenera automáticamente al ejecutar el script 01_descarga_y_preprocesado.R
+resultados/rds/counts_filtrado.rds
+
 # Archivos temporales del sistema
 .DS_Store
 Thumbs.db
