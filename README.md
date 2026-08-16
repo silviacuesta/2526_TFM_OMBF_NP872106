@@ -9,7 +9,7 @@ Los propios scripts crean y organizan automáticamente esta estructura de salida
 ```
 Codigo_TFM/
 ├── .gitignore
-├── 00_README.md
+├── README.md
 ├── session_info.txt
 ├── scripts/
 │   ├── 01_descarga_y_preprocesado.R
