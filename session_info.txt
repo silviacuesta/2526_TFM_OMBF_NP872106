@@ -1,0 +1,67 @@
+R version 4.4.3 (2025-02-28 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=Spanish_Spain.utf8  LC_CTYPE=Spanish_Spain.utf8    LC_MONETARY=Spanish_Spain.utf8
+[4] LC_NUMERIC=C                   LC_TIME=Spanish_Spain.utf8    
+
+time zone: Europe/Madrid
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] openxlsx_4.2.8.1            enrichplot_1.26.6           clusterProfiler_4.14.6     
+ [4] survminer_0.5.2             ggpubr_0.6.3                survival_3.8-6             
+ [7] org.Hs.eg.db_3.20.0         AnnotationDbi_1.68.0        DESeq2_1.46.0              
+[10] ggplot2_4.0.3               dplyr_1.2.1                 SummarizedExperiment_1.36.0
+[13] Biobase_2.66.0              GenomicRanges_1.58.0        GenomeInfoDb_1.42.3        
+[16] IRanges_2.40.1              S4Vectors_0.44.0            BiocGenerics_0.52.0        
+[19] MatrixGenerics_1.18.1       matrixStats_1.5.0           TCGAbiolinks_2.34.1        
+
+loaded via a namespace (and not attached):
+  [1] RColorBrewer_1.1-3          rstudioapi_0.18.0           jsonlite_2.0.0             
+  [4] magrittr_2.0.5              ggtangle_0.1.2              farver_2.1.2               
+  [7] fs_2.1.0                    zlibbioc_1.52.0             vctrs_0.7.3                
+ [10] memoise_2.0.1               ggtree_3.14.0               rstatix_0.7.3              
+ [13] S4Arrays_1.6.0              progress_1.2.3              curl_7.1.0                 
+ [16] broom_1.0.13                SparseArray_1.6.2           Formula_1.2-5              
+ [19] gridGraphics_0.5-1          plyr_1.8.9                  httr2_1.2.2                
+ [22] cachem_1.1.0                igraph_2.3.0                lifecycle_1.0.5            
+ [25] pkgconfig_2.0.3             gson_0.1.0                  Matrix_1.7-2               
+ [28] R6_2.6.1                    fastmap_1.2.0               GenomeInfoDbData_1.2.13    
+ [31] digest_0.6.38               aplot_0.2.9                 colorspace_2.1-2           
+ [34] patchwork_1.3.2             RSQLite_2.4.6               filelock_1.0.3             
+ [37] httr_1.4.8                  abind_1.4-8                 compiler_4.4.3             
+ [40] bit64_4.8.0                 withr_3.0.2                 downloader_0.4.1           
+ [43] S7_0.2.2                    backports_1.5.1             BiocParallel_1.40.0        
+ [46] carData_3.0-6               DBI_1.3.0                   R.utils_2.13.0             
+ [49] ggsignif_0.6.4              biomaRt_2.62.1              rappdirs_0.3.4             
+ [52] DelayedArray_0.32.0         tools_4.4.3                 otel_0.2.0                 
+ [55] ape_5.8-1                   zip_2.3.3                   R.oo_1.27.1                
+ [58] glue_1.8.1                  nlme_3.1-167                GOSemSim_2.32.0            
+ [61] grid_4.4.3                  reshape2_1.4.5              fgsea_1.32.4               
+ [64] generics_0.1.4              gtable_0.3.6                tzdb_0.5.0                 
+ [67] R.methodsS3_1.8.2           tidyr_1.3.2                 data.table_1.18.2.1        
+ [70] hms_1.1.4                   xml2_1.5.2                  car_3.1-5                  
+ [73] XVector_0.46.0              ggrepel_0.9.8               pillar_1.11.1              
+ [76] stringr_1.6.0               yulab.utils_0.2.4           splines_4.4.3              
+ [79] treeio_1.30.0               BiocFileCache_2.14.0        lattice_0.22-6             
+ [82] bit_4.6.0                   tidyselect_1.2.1            GO.db_3.20.0               
+ [85] locfit_1.5-9.12             Biostrings_2.74.1           knitr_1.51                 
+ [88] gridExtra_2.3               xfun_0.57                   stringi_1.8.7              
+ [91] UCSC.utils_1.2.0            lazyeval_0.2.3              ggfun_0.2.0                
+ [94] TCGAbiolinksGUI.data_1.26.0 evaluate_1.0.5              codetools_0.2-20           
+ [97] tibble_3.3.1                qvalue_2.38.0               ggplotify_0.1.3            
+[100] cli_3.6.5                   Rcpp_1.1.1                  dbplyr_2.5.2               
+[103] png_0.1-9                   XML_3.99-0.23               parallel_4.4.3             
+[106] readr_2.2.0                 blob_1.3.0                  prettyunits_1.2.0          
+[109] DOSE_4.0.1                  tidytree_0.4.7              scales_1.4.0               
+[112] purrr_1.2.2                 crayon_1.5.3                rlang_1.2.0                
+[115] cowplot_1.2.0               fastmatch_1.1-8             KEGGREST_1.46.0            
+[118] rvest_1.0.5                

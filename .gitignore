@@ -1,0 +1,17 @@
+# Datos brutos descargados desde el GDC (varios GB, públicos, no se suben)
+GDCdata/
+
+# Archivos de sesión y configuración de RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+
+# Archivo .rds que supera el límite de 100 MB de GitHub (~1 GB).
+# Se regenera automáticamente al ejecutar el script 02_expresion_diferencial.R
+resultados/rds/dds.rds
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
