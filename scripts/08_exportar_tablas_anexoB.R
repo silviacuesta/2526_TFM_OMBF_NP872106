@@ -2,7 +2,7 @@
 # 08_exportar_tablas_anexoA.R
 # TFM - Análisis de expresión génica y su asociación con la supervivencia 
 # en cáncer de mama mediante datos públicos RNA-seq
-# Fase 8: Exportación de las tablas completas de resultados a CSV (Anexo A)
+# Fase 8: Exportación de las tablas completas de resultados a CSV (Anexo B)
 # Autora: Silvia Cuesta Cordón
 # ------------------------------------------------------------------------------
 
